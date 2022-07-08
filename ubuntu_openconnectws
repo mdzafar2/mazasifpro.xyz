@@ -7,7 +7,7 @@ DBNAME='vpnpanel_mazasifpro';
 PORT_TCP='1194';
 PORT_UDP='None';
 
-cp /usr/share/zoneinfo/Asia/Dubai /etc/localtime
+cp /usr/share/zoneinfo/Asia/Riyadh /etc/localtime
 
 install_require()
 {
