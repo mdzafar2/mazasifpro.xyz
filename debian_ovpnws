@@ -11,6 +11,7 @@ install_require () {
 clear
 echo 'Installing dependencies.'
 {
+export DEBIAN_FRONTEND=noninteractive
 apt update
 apt install -y curl wget cron python-minimal libpython-stdlib
 apt install -y iptables
